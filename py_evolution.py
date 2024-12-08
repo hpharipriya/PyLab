@@ -11,7 +11,8 @@ def list_comprehension():
 execution_time = timeit.timeit("normal_loop()", globals=globals(), number=1_000_000)
 print(f"Execution time: {execution_time} seconds")
 
-## Results
+## Results 
+# 13 > 12  > 10
 
 ## via 🐍 v3.10.5 on
 ❯ python how-fast.py
