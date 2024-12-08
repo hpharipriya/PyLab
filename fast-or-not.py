@@ -20,3 +20,6 @@ Execution time: 2.261008583009243 seconds
 ##via 🐍 v3.12.0 
 ❯ python how-fast.py
 Execution time: 0.6567025419790298 seconds
+
+# via 🐍 v3.13.1+ on 
+Execution time: 0.4796533339540474 seconds
