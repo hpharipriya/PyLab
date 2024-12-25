@@ -1,6 +1,7 @@
 # Demos #
 
 **Sync**
+
 ```
 ❯ python how_async_awaits.py
 Making tea
@@ -9,6 +10,7 @@ Tea and dosa are ready in 7.003445863723755 seconds
 ```
 
 **Batch**
+
 ```
 ❯ git commit -m "asyncio demo"
 [async-io e6291da] asyncio demo
