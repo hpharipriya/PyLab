@@ -8,7 +8,8 @@ SELECT rate_ladder_element->>'rate' AS rate, market_element ->>'market' as marke
       jsonb_array_elements(market_element->'rate_ladder') AS rate_ladder_element
  WHERE  id= '<id>'  and market_element ->>'market' = 'SE' and rate_ladder_
  element->>'category' in ('123')
-
+```
+```
 eg : {
                 "rate": 400,
                 "category": "917",
